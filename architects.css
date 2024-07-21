@@ -382,7 +382,6 @@ main > section{
     {
         grid-template-columns: repeat(1, 1fr);
     }
-    
 
     .facts-container, .sponsor-companies{
         justify-items: center;
@@ -392,6 +391,7 @@ main > section{
     .sponsor-companies{
         justify-items: center;
         gap: 50px;
+        
     }
 
     .our-features{
@@ -403,12 +403,19 @@ main > section{
     margin-left: 20px;
 }
 
+.footer-section-title{
+    width:100% 
+}
 
 }
 
+
+
+
+
 /* medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {          
-    .teams, .features{
+    .teams, .features, {
         flex-direction: column;
     }
 
@@ -436,3 +443,4 @@ main > section{
     margin-left: 20px;
 }
 
+}
